@@ -1,0 +1,19 @@
+{
+    "name": "pmvc-plugin/sitemap",
+    "description": "Sitemap for seo",
+    "type": "library",
+    "homepage": "https://github.com/pmvc/pmvc",
+    "keywords": ["sitemap", "pmvc", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "pmvc/pmvc": "*",
+        "pmvc-plugin/xml": "*"
+    },
+    "minimum-stability": "dev"
+}
