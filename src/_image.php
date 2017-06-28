@@ -28,8 +28,36 @@ class Image extends Base
         );
     }
 
+    /**
+     * Long 
+     */
     public function setCaption($text)
     {
         $this['@children']['image:caption'] = $text;
     }
+
+    /**
+     * Short 
+     */
+    public function setTitle($text)
+    {
+        $this['@children']['image:caption'] = $text;
+    }
+    
+    /**
+     * Sample
+     * <image:geo_location>Limerick, Ireland</image:geo_location>
+     */
+    public function setGeoLocation($address)
+    {
+        $this['@children']['image:geo_location'] = $address;
+    }
+
+    /**
+     * A URL to the license of the image.
+     */
+     public function setLicense($url)
+     {
+        $this['@children']['image:license'] = $url;
+     }
 }
